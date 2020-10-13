@@ -53,6 +53,13 @@ function createStudentIdEntry (student){
     return container;
 }
 
+const getStudentElementsByNames = document.getElementsByClassName("student-name-container");
+const student = getStudentElementsByNames[0];
+student.onmouseover = mouseOverFunction;
+
+function mouseOverFunction(){
+    student.setAttribute("style", "color: red")
+}
 
 
 
