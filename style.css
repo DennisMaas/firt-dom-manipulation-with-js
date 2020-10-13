@@ -7,7 +7,7 @@
     color: #1d1d1d;
 }
 .student-name-container:hover{
-    
+    color: red;
 }
 #root {
     display: flex;
